@@ -10,7 +10,6 @@ function gonext() {
 function gokeynext() {
     var word = document.getElementById("keyword").value;
     word = wordtrim(word);
-    alert(word);
     document.location.href= word + '.html';
 }
 
