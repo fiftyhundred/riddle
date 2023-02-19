@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="riddle.css" />
+    <script type="text/javascript" src="common.js"></script>
+    <title>知ってたカード</title>
+  </head>
+  <body class="explore">
+    <h1>Known Card</h1>
+    <p class="qs2">
+      <script type="text/javascript">
+        knowncard1();
+        if(getcard("card1")<127){
+          document.write("<p>まずはキーワードの(1)～(7)を集めよう。集めたらもう一度「推理」しよう。<br>(キーワードを集めたらこのページに来てねってことよ。)</p>");
+        }else if(getcard("card1")==127){
+          document.write(getinCookie("completecard1"));
+        }
+        document.write(getinCookie("newknown"));
+      </script>
+    </p>
+
+    <p class="hint">
+      <span>ヒント</span><br />
+			<span class="apatetic2">知ってたカードを見たいときは「推理」を押せば跳ぶことができるわ。</span>
+		</p>
+    <!--ネタバレは最低限になるように書いたつもりだが、どうしても隠せない部分はできてしまうものだ。
+    ソースはクリア後に覗いたほうがネタバレなく楽しめる。そう思わないかい？-->
+    <div id="footer2">
+      <a href="start.html">探索に戻る</a>
+		</div>
+  </body>
+</html>

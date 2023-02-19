@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="riddle.css" />
+    <script type="text/javascript" src="common.js"></script>
+    <title>謎の箱</title>
+  </head>
+  <body class="sara">
+    <h1>mystery box</h1>
+    <p>
+      左から<br>
+        <script type="text/javascript">
+          var j;
+          for(j=1;j<=4;j++){
+            var suit = "<select id=\"suit"+ String(j) +"\">\
+                    <option value=\"s\">スペード</option>\
+                    <option value=\"d\">ダイヤ</option>\
+                    <option value=\"h\">ハート</option>\
+                    <option value=\"c\">クラブ</option>\
+                  </select>";
+            var num = "<select id=\"num" +String(j)+ "\"><option value=\"a\">A</option>";
+            var i;
+            for (i=2;i<=10;i++){
+              num = num + "<option value=\""+ String(i) +"\">"+ String(i) + "</option>"
+            }
+            num = num + "<option value=\"j\">J</option><option value=\"q\">Q</option><option value=\"k\">K</option></select>";
+            document.write(suit+ "の");
+            document.write(num+ "<br>");
+          }
+        </script>
+        <button id="gobtn" type="button" onclick="checkrouse()">差し込む</button>
+    </p>
+    <p class="hint">
+      <span>ヒント</span><br />
+			<span class="apatetic4">推理からも箱のページにいけるようになったわよ！</span>
+		</p>
+    <div id="footer2">
+      <a href="knowncard.html">推理</a><br>
+      <a href="sararoom.html">彩愛さんの部屋に戻る</a><br>
+      <a href="start.html">探索に戻る</a>
+		</div>
+  </body>
+</html>

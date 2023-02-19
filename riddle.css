@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+h1 {
+    color: #b66;
+    font-family: "Arial Black";
+    border-bottom: 2px dotted #999;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 120%;
+}
+
+p {
+    margin: 1em;
+}
+
+input {
+    background:#fff;
+    color: #000;
+    border:1px solid #666;
+}
+
+button {
+    background:#dda;
+    color: #333;
+    border:1px solid #666;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+a {
+    color: #25f;
+}
+
+/* ids */
+#navi{
+    padding: 5px;
+    clear: left;
+}
+
+#footer {
+    border-top: 1px solid #ccc;
+    margin: 5em 0 1em;
+}
+
+#footer2 {
+    border-top: 1px solid #999;
+    margin: 5em 0 1em;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.prologue{
+    background: #333;
+    color: #ccc;
+    font-size: 100%;
+}
+
+.explore{
+    background: #dda;
+    color: #333;
+    font-size: 100%;
+}
+
+.shota{
+    background: #774a7b;
+    color: #ddd;
+    font-size: 100%;
+}
+
+.sara{
+    background: #d6909d;
+    color: #333;
+    font-size: 100%;
+}
+
+.qs {
+    font-size: 110%;
+    color: #ff3;
+    margin: 1em  0 1em 2em;
+}
+
+.qs2 {
+    font-size: 110%;
+    color: #006400;
+    margin: 1em  0 1em 2em;
+}
+
+.dots{
+  text-emphasis: filled;
+  -webkit-text-emphasis: filled;
+}
+
+.note {
+    margin: 1em 0 0 0;
+    font-size: 90%;
+    color: #c66;
+}
+
+.hint {
+    margin: 5em 0 0 0;
+    font-size: 90%;
+    color: #c66;
+}
+
+.hint span {
+    cursor: help;
+}
+
+.apatetic {
+    color: #333;
+}
+
+.apatetic2 {
+    color: #dda;
+}
+
+.apatetic3 {
+    color: #774a7b;
+}
+
+.apatetic4 {
+    color: #d6909d;
+}
+
+.apatetic4 a{
+  color:inherit;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: #fff;
+    float: left;
+    margin: 10px;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+}
+
+.bl {
+    background-color: #000;
+}
+
+.wh {
+    background-color: #fff;
+}
+
+.r {
+    background-color: #f00;
+}
+
+.b {
+    background-color: #00f;
+}
+
+.g {
+    background-color: #090;
+}

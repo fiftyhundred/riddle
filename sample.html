@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>サンプル</title>
+</head>
+<body>
+
+<h1>サンプル</h1>
+
+<p id="msg">Cookieの読み書きを行います。</p>
+
+<script>
+document.cookie = 'old=27';
+document.cookie = 'address=Tokyo';
+let name = encodeURIComponent('田中');
+document.cookie = 'name=' + name;
+
+let e = document.getElementById('msg');
+e.insertAdjacentHTML('afterend', '<p>' + document.cookie + '</p>');
+</script>
+
+</body>
+</html>

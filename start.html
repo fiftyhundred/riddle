@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="riddle.css" />
+    <script type="text/javascript" src="common.js"></script>
+    <title>スタート</title>
+  </head>
+  <body class="explore">
+    <h1>Explore</h1>
+    <p>
+      さて...どこを調べようか？<br>
+      <a href="desk.html">机</a><br>
+      <a href="bookshelf.html">本棚</a><br>
+
+    <script type="text/javascript">
+      if(getcard("card1")==127){
+        document.write(getinCookie("newexplore"));
+      }
+    </script>
+    </p>
+    <button id="gobtn" type="button" onclick="resetallCookie()">進行状況reset</button>
+    <p class="hint">
+      <span>ヒント</span><br />
+			<span class="apatetic2">迷ったときはヒントを見るのよ！それでも分かんない時は...いっそアザラシちゃんに聞いちゃいましょ！</span>
+		</p>
+    <div id="footer2">
+      <a href="knowncard.html">推理</a><br>
+      <script type="text/javascript">
+        var goout = getinCookie("goout");
+        if(goout==""||getinCookie("item")!=""){
+          goout = "goingout.html";
+        }
+        document.write("<a href="+goout+">諦めて外に出る</a>");
+      </script>
+		</div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="riddle.css" />
+    <script type="text/javascript" src="common.js"></script>
+    <title>謎解きの本</title>
+  </head>
+  <body class="explore">
+    <h1>riddle book</h1>
+    <p>
+      知恵遊びだったり謎解きが沢山収録されている本だ。おっと、しおりがついてるページがあるな。どれどれ？<br>
+      Q(問題).<br>
+      <img src="ninedash.png" title="謎" width="100px">
+    </p>
+
+    <p>
+      数字の9に線が引かれている...。えーっと、つまり答えは...。
+    </p>
+    <div id="navi">
+      <input id="keyword" type="text" size="15" onkeypress="enter(event.keyCode)" />
+      <button id="gobtn" type="button" onclick="gonext()">Go</button>
+    </div>
+    <p>(答えは漢字1字)</p>
+    <p class="hint">
+      <span>ヒント</span><br />
+			<span class="apatetic2">9を変換してみると分かるかも！例えば...漢字とか？</span>
+		</p>
+    <div id="footer2">
+      <a href="knowncard.html">推理</a><br>
+      <a href="bookshelf.html">本棚に戻る</a><br>
+      <a href="start.html" target="_top">探索に戻る</a>
+		</div>
+  </body>
+</html>

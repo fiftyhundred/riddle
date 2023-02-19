@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="riddle.css" />
+    <script type="text/javascript" src="common.js"></script>
+    <title>彩愛さんの部屋</title>
+  </head>
+  <body class="sara">
+    <script type="text/javascript">
+      if(getinCookie("item")==""&&getinCookie("goout")==""){
+        document.write("<h1>Are you cheating by any chance?</h1>");
+      }else{
+        document.write("<h1>her room</h1>");
+      }
+      setinCookie("newexplore","<a href=\"sararoom.html\">彩愛さんの部屋</a><br><a href=\"shotaroom.html\">翔兄の部屋</a><br>");
+      setinCookie("newknown","<a href=\"password.html\">合言葉を見る</a><br><a href=\"mysterybox.html\">箱を見る</a><br>");
+    </script>
+    <p>
+      おじゃましまーす...。何か物寂しいなあ。生活感がないというか、引っ越してきたばっかりみたいな感じというか。<br>
+      さて、気になるものは...机の上の<a href="password.html">手紙</a>と<a href="mysterybox.html">箱</a>かなあ。
+    </p>
+    <p class="hint">
+      <span>ヒント</span><br />
+			<span class="apatetic4">必要最低限の物しかないわね。彩愛さんはどんな生活していたのかしら。</span>
+		</p>
+    <div id="footer2">
+      <a href="knowncard.html">推理</a><br>
+      <a href="start.html">探索に戻る</a>
+		</div>
+  </body>
+</html>
