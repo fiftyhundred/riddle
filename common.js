@@ -60,7 +60,7 @@ function resetinCookie (attr) {
 
 function getinCookie(attr){
   var i = document.cookie.indexOf(attr);
-  if(i<=0){
+  if(i<0){
     return "";
   }
   var pick = document.cookie.substr(i);
