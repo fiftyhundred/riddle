@@ -106,7 +106,7 @@ function resetallCookie(){
     resetinCookie("hint2");
     resetinCookie("newexplore");
     resetinCookie("newknown");
-    resetinCookie("completecard1");
+    resetinCookie("completecard_1");
     window.location.reload(true);
   }
 }
