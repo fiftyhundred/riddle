@@ -91,6 +91,11 @@ em {
     margin: 1em  0 1em 2em;
 }
 
+.qs2 a{
+  color:inherit;
+  text-decoration: none;
+}
+
 .dots{
   text-emphasis: filled;
   -webkit-text-emphasis: filled;
